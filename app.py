@@ -16,7 +16,7 @@ db.init_app(app)
 UPLOAD_FOLDER='upload'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 basedir = os.path.abspath(os.path.dirname(__file__))
-ALLOWED_EXTENSIONS = set(['pdf','jpg'])
+ALLOWED_EXTENSIONS = set(['pdf','jpg','png'])
 
 @app.route('/')
 def index():
