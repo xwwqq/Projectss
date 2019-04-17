@@ -132,7 +132,7 @@ def wq():
     return render_template('wq.html')
 
 # 上传文件
-@app.route('/wq/',methods=['POST'],strict_slashes=False)
+@app.route('/wq/',methods=['POST'],strict_slashes=True)
 def api_upload():
     file_dir = os.path.join(basedir, app.config['UPLOAD_FOLDER'])
     if not os.path.exists(file_dir):
