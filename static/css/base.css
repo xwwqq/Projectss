@@ -12,7 +12,7 @@ body{
 .main{
     background: #ffffff;
     width: 730px;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: hidden;
     padding: 10px;
 }
