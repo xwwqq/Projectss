@@ -12,7 +12,7 @@
 
 .answer-list li{
     list-style: none;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 2px dashed #ccc;
     padding-top: 10px;
 }
 .avatar{
