@@ -5,7 +5,7 @@ ul{
 }
 
 ul li{
-    border-bottom: 1px dashed #eee;
+    border-bottom: 2px dashed #eee;
     overflow: hidden;
     padding: 15px 0;
 }
